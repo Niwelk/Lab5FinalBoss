@@ -101,7 +101,12 @@ with tab2:
             )
 
             os_options = {
-                "container": ["ubuntu:latest", "alpine:latest", "centos:7", "debian:latest"],
+                "container": [
+                    "ubuntu:22.04", "ubuntu:20.04",
+                    "alpine:3.19", "alpine:3.18",
+                    "centos:7", "centos:8",
+                    "debian:12", "debian:11"
+                ],
                 "vm": ["ubuntu-20.04", "centos-8", "debian-11", "alpine-3.16"]
             }
 
