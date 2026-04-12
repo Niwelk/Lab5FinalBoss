@@ -1,0 +1,23 @@
+adme1"}
+# Steam Backend
+
+## Setup
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Create .env file:
+STEAM_API_KEY=your_key
+
+3. Run migrations:
+python manage.py migrate
+
+4. Start server:
+python manage.py runserver
+
+## API
+
+POST /api/register/
+POST /api/login/
+GET /api/search/?query=...
+GET /api/h
